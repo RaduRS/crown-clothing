@@ -3,4 +3,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    max-width: 1920px;
+    align-items: center;
+  }
+
+  @media all and (max-width: 1240px){
+    .directory-menu {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative;
+      top: 0%;
+      left: 0%;
+      /* bring your own prefixes */
+      transform: translate(0%, 0%);
+      max-width: 1920px;
+    }
   }

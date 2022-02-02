@@ -23,6 +23,7 @@ class Directory extends Component {
           title: "sneakers",
           imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
           id: 3,
+          size: "medium-large",
           linkUrl: "shop/sneakers",
         },
         {
